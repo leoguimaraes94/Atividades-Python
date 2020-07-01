@@ -1,0 +1,20 @@
+#Projeto Integrador: exercício 02
+#Léo Mendes 
+
+print("Olá, digite cinco números em metros e faremos a conversão!")
+print()
+m1 = float(input('1° valor em metros: '))
+m2 = float(input('2° valor em metros: '))
+m3 = float(input('3° valor em metros: '))
+m4 = float(input('4° valor em metros: '))
+m5 = float(input('5° valor em metros: '))
+print()
+print('Primeiro valor em km {}, em cm {} e em mm {}'.format((m1/1000), (m1*100), (m1*1000)))
+print()
+print('Segundo valor em km {}, cm {} e mm {}'.format((m2/1000), (m2*100), (m2*1000)))
+print()
+print('Terceiro valor em km {}, cm {} e mm {}'.format((m3/1000), (m3*100), (m3*1000)))
+print()
+print('Quarto valor em km {}, cm {} e mm {}'.format((m4/1000), (m4*100), (m4*1000)))
+print()
+print('Quinto valor em km {}, cm {} e mm {}'.format((m5/1000), (m5*100), (m5*1000)))
